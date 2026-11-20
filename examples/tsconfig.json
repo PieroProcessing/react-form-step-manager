@@ -1,0 +1,11 @@
+{
+  "extends": "../tsconfig.json",
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "react-form-step-manager": ["../dist/index.d.ts"]
+    },
+    "types": []
+  },
+  "include": ["."]
+}

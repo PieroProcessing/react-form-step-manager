@@ -1,0 +1,14 @@
+# react-form-step-manager
+
+> Multi-step form manager for React built on React Hook Form and Zod, with per-step claims. One `FormManager` instance per form, strategies declare steps/schema/submit, hooks read the instance from context.
+
+## Docs
+
+- README.md: install, quick start, API, attribution, scenarios
+- ai/skills/react-form-step-manager/SKILL.md: agent skill (install with `npx react-form-step-manager install-skill`)
+- ai/skills/react-form-step-manager/references/api.md: public API
+- ai/skills/react-form-step-manager/references/strategy.md: writing strategies
+- ai/skills/react-form-step-manager/references/claims.md: claims and step gating
+- ai/skills/react-form-step-manager/references/testing.md: testing
+- ai/skills/react-form-step-manager/references/recipes.md: recipes
+- ai/AGENTS.md: snippet for AGENTS.md / CLAUDE.md

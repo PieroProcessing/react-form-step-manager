@@ -1,0 +1,62 @@
+{
+  "name": "react-form-step-manager",
+  "version": "0.1.0",
+  "description": "Multi-step form manager for React built on React Hook Form and Zod, with per-step claims.",
+  "license": "Apache-2.0",
+  "author": "PieroProcessing",
+  "type": "module",
+  "main": "./dist/index.cjs",
+  "module": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "import": {
+        "types": "./dist/index.d.ts",
+        "default": "./dist/index.js"
+      },
+      "require": {
+        "types": "./dist/index.d.cts",
+        "default": "./dist/index.cjs"
+      }
+    }
+  },
+  "bin": {
+    "react-form-step-manager": "./bin/install-skill.mjs"
+  },
+  "files": [
+    "dist",
+    "ai",
+    "bin",
+    "NOTICE",
+    "llms.txt"
+  ],
+  "sideEffects": false,
+  "scripts": {
+    "build": "tsup",
+    "typecheck": "tsc --noEmit && tsc -p examples --noEmit",
+    "test": "vitest run --no-file-parallelism --maxWorkers=1"
+  },
+  "peerDependencies": {
+    "@hookform/resolvers": "^5.0.0",
+    "react": "^18.3.0 || ^19.0.0",
+    "react-hook-form": "^7.62.0",
+    "zod": "^4.0.0"
+  },
+  "devDependencies": {
+    "@hookform/resolvers": "^5.9.2",
+    "@tanstack/react-router": "^1.170.46",
+    "@testing-library/dom": "^10.4.2",
+    "@testing-library/react": "^16.3.3",
+    "@types/node": "^26.6.6",
+    "@types/react": "^19.3.0",
+    "@types/react-dom": "^19.3.0",
+    "jsdom": "^31.0.1",
+    "react": "^19.3.1",
+    "react-dom": "^19.3.1",
+    "react-hook-form": "^7.92.0",
+    "tsup": "^9.0.0",
+    "typescript": "~5.9",
+    "vitest": "^5.1.1",
+    "zod": "^4.6.7"
+  }
+}

@@ -1,6 +1,6 @@
 {
   "name": "react-form-step-manager",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Multi-step form manager for React built on React Hook Form and Zod, with per-step claims.",
   "license": "Apache-2.0",
   "author": "PieroProcessing",
